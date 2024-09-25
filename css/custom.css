@@ -1,0 +1,97 @@
+/* custom.css */
+
+/* Hero Section Styles */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.hero-section img {
+    width: 20%;
+}
+
+.hero-section p {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* Card Styles */
+.card {
+    margin-bottom: 30px;
+}
+
+/* New Four Column Section */
+.four-columns .overlay-container {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 5px;
+}
+
+.four-columns .text-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Individual Background Images for Each Category */
+.category1 {
+    background-image: url('/assets/col1.webp');
+}
+
+.category2 {
+    background-image: url('/assets/col2.webp');
+}
+
+.category3 {
+    background-image: url('/assets/col3.webp');
+}
+
+.category4 {
+    background-image: url('/assets/col4.webp');
+}
+/* App Download Section Styles */
+.app-download-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.app-download-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.app-download-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.app-download-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.app-link-form .form-check-inline {
+    margin-right: 20px;
+}
+
+.app-link-form .input-group {
+    max-width: 400px;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}

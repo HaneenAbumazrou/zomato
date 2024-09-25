@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Clone</title>
+    <script src="https://kit.fontawesome.com/e18153dca3.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css"> 
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " id="customNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Get the App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Investor Relations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Add Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log in</a>
+                    </li>
+                    <li class="nav-item"></li>
+                        <a class="nav-link" href="#">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-white text-center py-5" style="background-image: url('/assets/bg.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+            <img src="assets/head.webp" alt="logo">
+            <p class="lead">Discover the Best Food & Drinks in Agra</p>
+            <form class="d-flex justify-content-center">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-light text-black" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Agra</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Location</a></li>
+                    </ul>
+                  </div>
+                  <input class="form-control me-2" type="search" placeholder="Search for restaurants, cuisines or dish" aria-label="Search">
+            </form>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-5">
+        <div class="container">
+            <section class="popular-categories">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/card1.webp" class="card-img-top" alt="Category 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Order Online</h5>
+                                <p class="card-text">Stay at home and order to your doorstep.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/card2.webp" class="card-img-top" alt="Category 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Dining</h5>
+                                <p class="card-text">View the city favorite dining.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/card3.webp" class="card-img-top" alt="Category 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Nightlifes and Clubs</h5>
+                                <p class="card-text">Find the best nightlife venues.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="four-columns my-5">
+                <div class="row">
+                    <h2>Collections</h2>
+                    <span>Explore curated lists of top restaurants, cafes, pubs, and bars in Agra, based on trends</span>
+                    <p></p>
+                    <div class="col-md-3">
+                        <div class="overlay-container category1">
+                            <div class="text-overlay">
+                                <h5>6 Taj View Restaurants</h5>
+                                <span>6 Places <i class="fa-solid fa-caret-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="overlay-container category2">
+                            <div class="text-overlay">
+                                <h5>15 Local Favorite places</h5>
+                                <span>15 Places <i class="fa-solid fa-caret-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="overlay-container category3">
+                            <div class="text-overlay">
+                                <h5>18 Luxury Dining Places</h5>
+                                <span>17 Places <i class="fa-solid fa-caret-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="overlay-container category4">
+                            <div class="text-overlay">
+                                <h5>6 Best Mughlai Places</h5>
+                                <span>15 Places <i class="fa-solid fa-caret-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                <!-- App Download Section -->
+    <section class="app-download-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Phone Image -->
+                <div class="col-md-6 text-center">
+                    <img src="/assets/foot.webp" alt="Phone Mockup" class="img-fluid">
+                </div>
+                <!-- Text and Form -->
+                <div class="col-md-6">
+                    <h2>Get the Zomato app</h2>
+                    <p>We will send you a link, open it on your phone to download the app</p>
+
+                    <form class="app-link-form mb-4">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="contactOption" id="emailOption" checked>
+                            <label class="form-check-label" for="emailOption">Email</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="contactOption" id="phoneOption">
+                            <label class="form-check-label" for="phoneOption">Phone</label>
+                        </div>
+
+                        <div class="input-group mt-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                            <button class="btn btn-danger" type="button">Share App Link</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Zomato Clone. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
